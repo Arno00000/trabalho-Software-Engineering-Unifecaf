@@ -21,3 +21,5 @@ PRIORIDADE_MEDIA = "MEDIA"
 PRIORIDADE_ALTA = "ALTA"
 
 PRIORIDADES_VALIDAS = [PRIORIDADE_BAIXA, PRIORIDADE_MEDIA, PRIORIDADE_ALTA]
+
+# Nota: mantenha os textos dos status exatamente iguais para combinar com o Kanban.
