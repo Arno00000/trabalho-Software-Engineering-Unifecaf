@@ -1,0 +1,25 @@
+@startuml
+class Task {
+  +id: int
+  +titulo: str
+  +descricao: str
+  +status: str
+  +prioridade: str
+}
+
+class Storage {
+  +ler_json(caminho): list
+  +salvar_json(caminho, dados): void
+}
+
+class TaskService {
+  +criar_task(db, titulo, descricao): Task
+  +listar_tasks(db, status, prioridade): list
+  +obter_task_por_id(db, id): Task
+  +atualizar_task(db, id, ...): Task
+  +excluir_task(db, id): bool
+}
+
+TaskService --> Storage
+TaskService --> Task
+@enduml

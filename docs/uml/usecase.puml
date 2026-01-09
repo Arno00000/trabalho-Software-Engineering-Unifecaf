@@ -1,0 +1,23 @@
+@startuml
+left to right direction
+
+actor "Gestor/PO" as PO
+actor "Equipe" as DEV
+
+rectangle "TechFlow Task Manager (CLI)" {
+  usecase "Criar tarefa" as UC1
+  usecase "Listar tarefas" as UC2
+  usecase "Atualizar tarefa\n(status/prioridade)" as UC3
+  usecase "Excluir tarefa" as UC4
+  usecase "Filtrar tarefas críticas\n(prioridade=ALTA)" as UC5
+}
+
+PO --> UC1
+PO --> UC2
+PO --> UC3
+PO --> UC4
+PO --> UC5
+
+DEV --> UC2
+DEV --> UC3
+@enduml
