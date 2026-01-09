@@ -107,3 +107,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+    # Parser dos comandos do terminal (CLI) e chamada do serviço.
