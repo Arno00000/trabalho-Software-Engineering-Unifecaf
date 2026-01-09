@@ -138,3 +138,5 @@ O desenvolvimento foi registrado com commits frequentes e descritivos, permitind
 12. Observações Finais
 
 Este projeto tem finalidade exclusivamente acadêmica, com foco na aplicação prática dos conceitos de Engenharia de Software, metodologias ágeis, testes automatizados e controle de versão.
+
+Evidencia de execucao do CI com GitHub Actions.
