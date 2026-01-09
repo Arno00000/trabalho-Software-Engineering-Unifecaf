@@ -57,3 +57,7 @@ def test_fluxo_crud_com_prioridade(db_temp):
     # LIST vazio
     tasks2 = listar_tasks(db_temp)
     assert len(tasks2) == 0
+
+
+
+    # Fluxo completo: criar -> listar -> atualizar -> filtrar -> excluir.
