@@ -175,3 +175,6 @@ def excluir_task(caminho_db: str, task_id: int) -> bool:
 
     salvar_tasks(caminho_db, tasks)
     return True
+
+
+# Validação simples para manter o quadro organizado: título não pode ser vazio.
