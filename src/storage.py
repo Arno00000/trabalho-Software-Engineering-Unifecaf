@@ -37,3 +37,6 @@ def salvar_json(caminho_arquivo: str, dados):
 
     texto = json.dumps(dados, ensure_ascii=False, indent=2)
     path.write_text(texto, encoding="utf-8")
+
+
+# Camada de persistência simples: JSON em arquivo local.
